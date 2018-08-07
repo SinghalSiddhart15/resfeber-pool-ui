@@ -1,0 +1,93 @@
+html {
+    font-size: 10px;
+    font-family: 'sans-serif';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#root{
+    max-width: 1000px;
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pool-container{
+
+}
+
+.pool-header {
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+.logo {
+    background-size: contain;
+    display: table;
+    margin: auto;
+    border: none;
+    height: 100%;
+    width: 10%;
+}
+
+
+
+.pool-section {
+    content: "";
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.pools{
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+    justify-content: center;
+    text-align: center;
+}
+
+.pool-nav{
+    float: right;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+.pool-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .pool-nav, .pools {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.pool-footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.width25{
+    width: 25%;
+}
